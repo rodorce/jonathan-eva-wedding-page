@@ -3,12 +3,12 @@ import React, { useState } from "react";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState("hidden");
-  const [menuColor, setMenuColor] = useState("text-white");
+  const [menuColor, setMenuColor] = useState("text-pink-500");
 
   const handleMenu = () => {
     menuColor !== "text-black"
       ? setMenuColor("text-black")
-      : setMenuColor("text-white");
+      : setMenuColor("text-pink-500");
 
     showMenu !==
     "w-full fixed lg:hidden mx-auto bg-white text-black h-screen w-screen"
@@ -69,20 +69,20 @@ const Navbar = () => {
               Nuestra Unión
             </li>
           </a>
-          <a href="#galeria">
-            <li
-              className="mx-8 font-Oswald cursor-pointer pb-5 text-center"
-              onClick={handleMenu}
-            >
-              Galería
-            </li>
-          </a>
           <a href="#evento">
             <li
               className="mx-8 font-Oswald cursor-pointer pb-5 text-center"
               onClick={handleMenu}
             >
               Evento
+            </li>
+          </a>
+          <a href="#galeria">
+            <li
+              className="mx-8 font-Oswald cursor-pointer pb-5 text-center"
+              onClick={handleMenu}
+            >
+              Galería
             </li>
           </a>
           <a href="#tradicion">
