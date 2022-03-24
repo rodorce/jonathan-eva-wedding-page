@@ -50,7 +50,7 @@ const InvitationDate = () => {
                 className="font-medium text-md mt-5 tracking-wide text-center font-Playfair"
                 data-aos="fade-in"
               >
-                Venezuela 5118, Col. Palacios
+                Venezuela #5118, Col. Palacios
               </h6>
             </div>
           </div>

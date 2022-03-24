@@ -8,7 +8,7 @@ const Quote = () => {
         className="text-xl lg:text-6xl font-Playfair pb-4 text-black  font-extralight"
         data-aos="fade-down"
       >
-        Y ahora que estas aquí, veo el amor convertido en ti.
+        Y ahora que estás aquí, veo el amor convertido en ti.
       </h3>
       <span
         className="text-xl lg:text-6xl font-Playfair pt-8 block text-black  font-extralight"
