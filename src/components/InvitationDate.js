@@ -2,8 +2,6 @@ import { Heart } from "iconoir-react";
 import React from "react";
 import photo from "../photos/7.jpg";
 import church from "../photos/iglesia.svg";
-import cubrebocas from "../photos/cubrebocas.svg";
-import whatsapp from "../photos/whatsapp.png";
 const InvitationDate = () => {
   return (
     <>
@@ -27,7 +25,7 @@ const InvitationDate = () => {
                 className="font-medium text-md mt-5 tracking-wide text-center font-Playfair"
                 data-aos="fade-in"
               >
-                Parroquia Santísima Trinidad - 17:30 p.m.
+                Parroquia Santísima Trinidad - 17:30 hrs.
               </h6>
               <h6 className="font-medium text-md mt-5 tracking-wide text-center font-Playfair">
                 Canales #5715, Col. Hidalgo
@@ -44,7 +42,7 @@ const InvitationDate = () => {
                 className="font-medium text-md mt-5 tracking-wide text-center font-Playfair"
                 data-aos="fade-in"
               >
-                Jardín Venezuela - 20:00 p.m.
+                Jardín Venezuela - 20:00 hrs.
               </h6>
               <h6
                 className="font-medium text-md mt-5 tracking-wide text-center font-Playfair"
