@@ -14,7 +14,7 @@ const Gallery = () => {
   return (
     <>
       <div
-        className="grid grid-cols-8 grid-rows-10 bg-green-100 p-4 lg:p-20 gap-4 grid-flow-row"
+        className="grid grid-cols-8 grid-rows-10 bg-white p-4 lg:p-20 gap-4 grid-flow-row"
         id="galeria"
       >
         <img

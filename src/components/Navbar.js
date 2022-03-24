@@ -22,10 +22,12 @@ const Navbar = () => {
       <div className="z-50 w-full text-white absolute">
         <div className="fixed right-0 top-0 z-50">
           {console.log(menuColor)}
-          <Menu
-            className={`${menuColor} block lg:hidden`}
-            onClick={handleMenu}
-          />
+          <div className="rounded-full p-1 lg:hidden bg-[#ffffff9f] mx-auto mr-3 mt-3">
+            <Menu
+              className={`${menuColor} block lg:hidden`}
+              onClick={handleMenu}
+            />
+          </div>
         </div>
         <div className="absolute text-center w-full">
           <h2 className="mx-12 font-Cookie text-xl cursor-pointer lg:hidden">
