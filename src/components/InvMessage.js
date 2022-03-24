@@ -33,7 +33,7 @@ const InvMessage = () => {
           <br />
           <p data-aos="fade-down text-xl">
             Estamos felices de compartir con ustedes éste día tan especial para
-            nostros.
+            nosotros.
           </p>
           <br />
         </div>
