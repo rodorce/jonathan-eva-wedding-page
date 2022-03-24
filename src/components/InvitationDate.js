@@ -27,7 +27,7 @@ const InvitationDate = () => {
                 className="font-medium text-md mt-5 tracking-wide text-center font-Playfair"
                 data-aos="fade-in"
               >
-                Parroquia Santísima Trinidad
+                Parroquia Santísima Trinidad - 17:30 p.m.
               </h6>
               <h6 className="font-medium text-md mt-5 tracking-wide text-center font-Playfair">
                 Canales #5715, Col. Hidalgo
@@ -44,7 +44,7 @@ const InvitationDate = () => {
                 className="font-medium text-md mt-5 tracking-wide text-center font-Playfair"
                 data-aos="fade-in"
               >
-                Jardín Venezuela - 8:00 p.m.
+                Jardín Venezuela - 20:00 p.m.
               </h6>
               <h6
                 className="font-medium text-md mt-5 tracking-wide text-center font-Playfair"
@@ -53,14 +53,6 @@ const InvitationDate = () => {
                 Venezuela #5118, Col. Palacios
               </h6>
             </div>
-          </div>
-          <div className="flex flex-col justify-center lg:pt-4 py-16">
-            <a href="https://wa.me/5218672041076/?text=Hola%2C+confirmo+mi+asistencia+al+evento.">
-              <div class="text-lg cursor cursor-pointer flex flex-row justify-center items-center lg:mx-64 lg:mt-24 mt-8 px-6 py-2 transition-colors duration-300 border-2 rounded-full shadow-xl text-green-500 border-green-400 shadow-green-300/30 hover:bg-green-500 hover:text-pink-100">
-                <img src={whatsapp} className="h-8 pr-4" />
-                Confirmar asistencia
-              </div>
-            </a>
           </div>
         </div>
       </div>
