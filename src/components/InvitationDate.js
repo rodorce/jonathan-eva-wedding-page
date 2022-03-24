@@ -54,19 +54,7 @@ const InvitationDate = () => {
               </h6>
             </div>
           </div>
-          <div className="flex flex-col justify-center lg:pt-32 py-16">
-            <h4
-              className="font-medium text-2xl text-center font-Playfair pb-4"
-              data-aos="fade-in"
-            >
-              Evento formal - No niños
-            </h4>
-            <img
-              src={cubrebocas}
-              alt="cubrebocas"
-              className="mx-auto w-48"
-              data-aos="fade-in"
-            />
+          <div className="flex flex-col justify-center lg:pt-4 py-16">
             <a href="https://wa.me/5218672041076/?text=Hola%2C+confirmo+mi+asistencia+al+evento.">
               <div class="text-lg cursor cursor-pointer flex flex-row justify-center items-center lg:mx-64 lg:mt-24 mt-8 px-6 py-2 transition-colors duration-300 border-2 rounded-full shadow-xl text-green-500 border-green-400 shadow-green-300/30 hover:bg-green-500 hover:text-pink-100">
                 <img src={whatsapp} className="h-8 pr-4" />
